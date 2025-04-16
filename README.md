@@ -9,6 +9,8 @@ A simple C++ terminal-based plotter for extracting and visualizing Steered Molec
 - Plots the extracted data directly in the terminal
 - No external dependencies required :)
 
+![screenshot](screenshot.png)
+
 ## Known bugs
 - Graphs aren't starting from Zero as expected.
   - I'm still figuring out what's going wrong with my calculations... 
