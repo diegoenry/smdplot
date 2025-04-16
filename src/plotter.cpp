@@ -121,7 +121,11 @@ void plot_in_terminal(const std::vector<double>& x_values, const std::vector<dou
     std::cout << std::endl;
     
     // Print x-axis labels
+    /* I tried this spacing bellow to place the numbers at the begining
+     * but I'm yet to find the right relation with the x-axis labels
+     * se we can actually start the extension from zero.
     std::cout << std::setw(10) << " " << " ";
+    */
     for (int i = 0; i < 5; ++i) {
         int pos = i * (width / 4);
         double val = x_min + ((double)pos / (width - 1)) * (x_max - x_min);
